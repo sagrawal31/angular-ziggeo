@@ -24,7 +24,7 @@ declare namespace ZiggeoApi.V2 {
 })
 export class ZiggeoRecorderComponent implements DoCheck, AfterViewInit, OnDestroy {
 
-    @ViewChild('ziggeorecorder', {static: true}) ziggeorecorder: any;
+    @ViewChild('ziggeorecorder') ziggeorecorder: any;
     @Input() apiKey: string;
     @Input() options: any = {};
     recorderInstance: any;

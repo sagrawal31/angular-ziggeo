@@ -56,20 +56,20 @@
     "tslint": "tslint"
   },
   "dependencies": {
-    "@angular/cli": "^8.3.25",
+    "@angular/cli": "^9.0.3",
     "tslib": "^1.10.0",
     "ziggeo-client-sdk": "^2.34.14",
     "rxjs-compat": "^6.0.0-rc.0"
   },
   "peerDependencies": {},
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.25",
-    "@angular/common": "^8.2.14",
-    "@angular/compiler": "^8.2.14",
-    "@angular/compiler-cli": "^8.2.14",
-    "@angular/core": "^8.2.14",
-    "@angular/platform-browser": "^8.2.14",
-    "@angular/platform-browser-dynamic": "^8.2.14",
+    "@angular-devkit/build-angular": "~0.900.3",
+    "@angular/common": "^9.0.3",
+    "@angular/compiler": "^9.0.3",
+    "@angular/compiler-cli": "^9.0.3",
+    "@angular/core": "^9.0.3",
+    "@angular/platform-browser": "^9.0.3",
+    "@angular/platform-browser-dynamic": "^9.0.3",
     "@compodoc/compodoc": "^1.1.9",
     "@types/node": "^8.10.47",
     "@types/webpack": "^3.8.18",
@@ -98,6 +98,6 @@
     "webpack": "^3.6.0",
     "webpack-angular-externals": "^1.0.2",
     "webpack-rxjs-externals": "^1.0.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.10.2"
   }
 }
